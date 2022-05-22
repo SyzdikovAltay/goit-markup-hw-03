@@ -35,7 +35,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px auto;
+    padding: 32px 0px;
 }
 .nav-container{
     display: flex;
@@ -99,6 +99,7 @@ ul.navlist li{
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color:#2196F3;
+    border-radius: 4px;
 }
 
 .order-btn:hover,
@@ -312,9 +313,17 @@ footer .webstudiolink{
 }
                              /*Портфолио*/ 
 
-/*Фильтр*/
-
-
+                            /*Фильтр*/
+main>.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.navlist{
+    display: flex;
+    justify-content: center;  
+}
 .filter{
     cursor: pointer;
     font-weight: 500;
@@ -325,6 +334,11 @@ footer .webstudiolink{
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
+    margin-right: 8px;
+    padding: 6px 22px;
+}
+.portfolio{
+    margin:94px 0px 50px 0px;
 }
 .filter:hover,
 .filter:focus {
@@ -339,7 +353,11 @@ footer .webstudiolink{
                                 /*Галерея*/
 .gallery-items{
     width: 370px;
-    height: 410px;
+    height: 404px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EEEEEE;
 }
 .gallery-h3{
     font-weight: 700;
@@ -347,6 +365,8 @@ footer .webstudiolink{
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+    display: block;
+    padding:20px 24px 0px 24px;
 }
 .categories{
     font-weight: 400;
@@ -354,4 +374,14 @@ footer .webstudiolink{
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+    display: block;
+    padding:4px 24px 20px 24px;
+}
+.ul-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.li-gallery{
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
