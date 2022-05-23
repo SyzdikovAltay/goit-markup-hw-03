@@ -146,6 +146,9 @@ h1{
 .navlinksitem.current{
     color: #2196F3;
 }
+.navlinksitem{
+    color: #212121;
+}
 .navlistcontacts{
     
 }
@@ -269,7 +272,6 @@ h1{
                             /*footer*/
  .footer{
     background-color: #2F303A;
-    margin:0 -200px 0 -200px;
 }
 .footer>.container{
     display: flex;
@@ -279,6 +281,7 @@ h1{
 .footer-adress{
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -289,6 +292,9 @@ h1{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-map{
+    color: #FFFFFF;
 }
 .footer-adress:hover,
 .footer-adress:focus{
@@ -328,14 +334,14 @@ main>.container{
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    
+    line-height: 26px;   
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
     margin-right: 8px;
     padding: 6px 22px;
+    background-color: #F5F4FA;
 }
 .portfolio{
     margin:94px 0px 50px 0px;
