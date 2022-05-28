@@ -361,12 +361,7 @@ footer .webstudiolink{
                              /*Портфолио*/ 
 
                             /*Фильтр*/
-main>.container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-}
+
 .navlist{
     display: flex;
     justify-content: center;  
@@ -380,13 +375,16 @@ main>.container{
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
-    margin-right: 8px;
+    
     padding: 6px 22px;
     background-color: #F5F4FA;
     border-radius: 4px;
 }
+.filter-li:not(:nth-last-child(1)){
+    margin-right: 8px;
+}
 .portfolio{
-    margin:94px 0px 50px 0px;
+    padding:94px 0px 50px 0px;
 }
 .filter:hover,
 .filter:focus {
