@@ -32,9 +32,7 @@ main{
                                 /* Хедер */
 
 header{
-    display: flex;
-    justify-content: center;
-    border-bottom: solid #ECECEC 1px;
+    border-bottom:1px solid #ECECEC;
 }
 .section{
     display: flex;
@@ -46,10 +44,12 @@ header{
     align-items: center;
 }
 .navigation{
-    margin-left: 93px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .navlist{
-    padding:0;
+    margin-left: 93px;
 }
 .navlinks{
     
@@ -82,11 +82,6 @@ ul.navlist li{
 }
 .navlistcontact-li:nth-last-child(2n){
     margin-right: 50px;
-}
-
-.navlinkscontact-container{
-    display: flex;
-    align-items: center;
 }
 
                             /* Hero */
@@ -140,7 +135,6 @@ h1{
     color: #FFFFFF;
 }
 .webstudiolink{
-    width: 145px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -184,7 +178,6 @@ h1{
 /*section 2*/
 .section2{
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 .ul-section2{
     display: flex;
@@ -218,6 +211,10 @@ h1{
 } 
 /*section 3*/
 
+.section3{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
 .section3-h2{
     font-weight: 700;
     font-size: 36px;
@@ -225,13 +222,11 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 } 
 .ul-section3{
     display:flex;
     flex-wrap: wrap;
-    
-    padding-bottom: 94px;
 }
 
 .li-img:not(:nth-child(3n)){
@@ -244,9 +239,9 @@ h1{
 
 .section4{
     background-color: #F5F4FA;
-    margin:0 -200px 0 -200px;
 }
 .section4{
+    padding-top: 94px;
     padding-bottom: 80px;
 }
 .ul-section4{
@@ -261,12 +256,10 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding: 94px 0px 50px 0px;
+    margin-bottom: 50px;
 }
 .li-section4{
-    margin-bottom: 14px;
     width: 270px;
-    height: 368px;
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -281,7 +274,6 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top:30px;
 }
 .section4-position{
     font-weight: 400;
@@ -290,11 +282,15 @@ h1{
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-top: 10px;
+    margin-top: 10px;
+}
+.li-h3p{
+    padding: 30px 0;
 }
                             /*footer*/
 .footer{
     background-color: #2F303A;
+    padding: 60px 0;
 }
 .footer>.container{
     display: flex;
@@ -313,29 +309,25 @@ h1{
 }
 .footer-map{
     display: block;
-    width: 231px;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
     color: #FFFFFF;
 }
 .footer-mail{
     display: block;
-    width: 231px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .footer-contacts{
     display: block;
-    width: 231px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 60px;
 }
 .footer-map:hover,
 .footer-map:focus{
@@ -350,8 +342,7 @@ h1{
     color: #2196F3;
 } 
 footer .webstudiolink{
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .address-footer{
     padding-bottom: 9px;
