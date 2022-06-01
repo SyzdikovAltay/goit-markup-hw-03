@@ -400,6 +400,9 @@ footer .webstudiolink{
     flex-direction: column;
     border: 1px solid #EEEEEE;
 }
+.gallery-ph3{
+    margin: 20px 24px 20px 24px;
+}
 .gallery-h3{
     font-weight: 700;
     font-size: 18px;
@@ -407,7 +410,7 @@ footer .webstudiolink{
     letter-spacing: 0.06em;
     color: #212121;
     display: block;
-    padding:20px 24px 0px 24px;
+    margin-bottom: 4px;
 }
 .categories{
     font-weight: 400;
@@ -416,7 +419,7 @@ footer .webstudiolink{
     letter-spacing: 0.03em;
     color: #757575;
     display: block;
-    padding:4px 24px 20px 24px;
+    /* padding:4px 24px 20px 24px; */
 }
 .ul-gallery{
     display: flex;
