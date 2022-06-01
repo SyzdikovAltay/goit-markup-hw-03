@@ -357,6 +357,9 @@ footer .webstudiolink{
 
                             /*Фильтр*/
 
+.section5{
+    padding: 94px 0px 94px 0px;
+}
 .navlist{
     display: flex;
     justify-content: center;  
@@ -379,7 +382,7 @@ footer .webstudiolink{
     margin-right: 8px;
 }
 .portfolio{
-    margin:94px 0px 50px 0px;
+    margin:0px 0px 50px 0px;
 }
 .filter:hover,
 .filter:focus {
@@ -424,7 +427,7 @@ footer .webstudiolink{
 .ul-gallery{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
+    
 }
 
 .li-gallery:not(:nth-last-child(-n+3)){
